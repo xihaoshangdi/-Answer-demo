@@ -1,0 +1,184 @@
+[
+  {
+    "index": 1,
+    "topic": "题目1:是否符合对特殊运营人的如下要求？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "0": {
+        "A": 2,
+        "B": 3
+      }
+    }
+  },
+  {
+    "index": 2,
+    "topic": "题目2：运行合格证或者运行规范是否得到局方允许进行农林喷洒作业飞行的运行种类批准？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "1": {
+        "A": 4,
+        "B": 6
+      }
+    }
+  },
+  {
+    "index": 3,
+    "topic": "题目3：是否已获得局方批准？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "1": {
+        "A": 4,
+        "B": 6
+      }
+    }
+  },
+  {
+    "index": 4,
+    "topic": "题目4：是否使用带有机外喷洒设备的直升机进行农林喷洒作业飞行活动？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "check": {
+      "stay": "reset||stayed",
+      "reset": "xxxxxx",
+      "stayed": "xxxxxxxx"
+    },
+    "default": "xxxxxxxx",
+    "tip": {
+      "2": {
+        "A": "无需符合直升机外载荷作业飞行的规章规定且无需得到直升机机外载荷作业飞行的运行种类批准"
+      },
+      "3": {
+        "A": "无需符合直升机外载荷作业飞行的规章规定且无需得到直升机机外载荷作业飞行的运行种类批准"
+      }
+    },
+    "next": {
+      "2": {
+        "A": 7,
+        "B": 5
+      },
+      "3": {
+        "A": 7,
+        "B": 5
+      }
+    }
+  },
+  {
+    "index": 5,
+    "topic": "题目5：是否使用带有机外载荷设备的直升机进行森林灭火作业飞行活动？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "tip": {
+      "4": {
+        "A": "无需符合农林喷洒作业飞行的规章规定"
+      },
+      "6": {
+        "A": "可以使用带有机外载荷设备的直升机进行森林灭火作业飞行活动"
+      }
+    },
+    "next": {
+      "4": {
+        "A": 6,
+        "B": 7
+      },
+      "6": {
+        "A": 7,
+        "B": "end"
+      }
+    }
+  },
+  {
+    "index": 6,
+    "topic": "题目6：是否已得到局方允许进行直升机机外载荷作业飞行的运行种类批准？",
+    "options": [
+      {
+        "value": "A.是；",
+        "label": "A"
+      },
+      {
+        "value": "B.否；",
+        "label": "B"
+      }
+    ],
+    "menu": "运行种类批准",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "2": {
+        "A": 5,
+        "B": "end"
+      },
+      "3": {
+        "A": 5,
+        "B": "end"
+      },
+      "5": {
+        "A": 7,
+        "B": "end"
+      }
+    }
+  }
+]

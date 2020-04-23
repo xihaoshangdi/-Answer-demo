@@ -1,0 +1,752 @@
+[
+  {
+    "index": 1,
+    "topic": "题目1：如果运营人超过（ ）没有实施运行规范中批准的一种或者多种类的运行，其运行规范将（ ）。",
+    "options": [
+      {
+        "value": "A.一年、失效",
+        "label": "A"
+      },
+      {
+        "value": "B.6个月、失效或部分失效",
+        "label": "B"
+      },
+      {
+        "value": "C.一年、失效或部分失效",
+        "label": "C"
+      },
+      {
+        "value": "D.6个月、失效",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 2,
+    "topic": "题目2：如果运营人需要修改运行合格证，应当在计划的修改生效日期前（ ）天向局方提交修改申请书。",
+    "options": [
+      {
+        "value": "A.15",
+        "label": "A"
+      },
+      {
+        "value": "B.28",
+        "label": "B"
+      },
+      {
+        "value": "C.30",
+        "label": "C"
+      },
+      {
+        "value": "D.45",
+        "label": "D"
+      },
+      {
+        "value": "E.60",
+        "label": "E"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 3,
+    "topic": "题目3：运营人必须在局方认可的地点以局方接受的方式保存运行合格证和运行规范，以备局方检查，其中：",
+    "child": [
+      {
+        "topic": "为每位驾驶员单独建立的记录应当保存至少（）",
+        "options": [
+          {
+            "value": "A.3",
+            "label": "A"
+          },
+          {
+            "value": "B.6",
+            "label": "B"
+          },
+          {
+            "value": "C.12",
+            "label": "C"
+          },
+          {
+            "value": "D.24",
+            "label": "D"
+          }
+        ]
+      },
+      {
+        "topic": "如果驾驶员不再参与运行，将从退出之日起保存至少（）",
+        "options": [
+          {
+            "value": "A.3 ",
+            "label": "A"
+          },
+          {
+            "value": "B.6",
+            "label": "B"
+          },
+          {
+            "value": "C.12 ",
+            "label": "C"
+          },
+          {
+            "value": "D.24",
+            "label": "D"
+          }
+        ]
+      }
+    ],
+    "answer": "A,A",
+    "isMultiple": false
+  },
+  {
+    "index": 4,
+    "topic": "题目4：对于已经得到局方颁发的直升机机外载荷作业飞行运行种类批准的特殊运营人，（）得到局方颁发的农林喷洒作业飞行运行种类批准，即可使用带有机外载荷设备的直升机实施森林灭火作业飞行。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": " B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 5,
+    "topic": "题目5：为特殊运营人服务，从运营人处获取报酬的驾驶员除经局方批准外，每日飞行时间不超过（）小时；任何7个连续日历日内飞行时间不超过（）小时：",
+    "options": [
+      {
+        "value": "A.8，40",
+        "label": "A"
+      },
+      {
+        "value": "B.8，50",
+        "label": "B"
+      },
+      {
+        "value": "C.10, 40",
+        "label": "C"
+      },
+      {
+        "value": " D.10， 50",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 6,
+    "topic": "题目6：特殊运营人可以实施的飞行不包括下列哪项（）",
+    "options": [
+      {
+        "value": "A.农林喷洒作业飞行",
+        "label": "A"
+      },
+      {
+        "value": "B.直升机水上平台运行",
+        "label": "B"
+      },
+      {
+        "value": "C.直升机机外载荷作业飞行",
+        "label": "C"
+      },
+      {
+        "value": "D.跳伞作业",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 7,
+    "topic": "题目7：商业运输运营人与航空器代管人可以实施的飞行不包括下列哪项（）",
+    "options": [
+      {
+        "value": "A.直升机水上平台运行",
+        "label": "A"
+      },
+      {
+        "value": "B.空中游览飞行",
+        "label": "B"
+      },
+      {
+        "value": "C.直升机机外载荷作业飞行",
+        "label": "C"
+      },
+      {
+        "value": "D.航空摄影",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 8,
+    "topic": "题目8：训练飞行（）取得驾驶员学校飞行证",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 9,
+    "topic": "题目9：超轻型飞行器飞行与特技飞行（）相关的运营人合格证，（）符合相关的运行规范与局方批准",
+    "options": [
+      {
+        "value": "A.不需要，需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要，不需要",
+        "label": "B"
+      },
+      {
+        "value": "C.需要，需要",
+        "label": "C"
+      },
+      {
+        "value": "D.需要，不需要",
+        "label": "D"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 10,
+    "topic": "题目10：在局方为合格证申请人颁发合格证之前，申请人（A）向局方证明其具有按照本规则中适用于该申请人的规定实施运行的能力。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 11,
+    "topic": "题目11：对于已经得到局方颁发的农林喷洒作业飞行运行种类批准的特殊运营人，（）得到局方颁发的直升机机外载荷作业飞行的运行种类批准，即可使用带有外挂喷洒设备的直升机实施农林喷洒作业飞行。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 12,
+    "topic": "题目12：对于按照CCAR-121部运行的承运人、按照CCAR-135部运行的运营人和按照CCAR-141部运行的驾驶员学校，可以使用其运行规范或训练规范中的航空器和符合其相应运行资质的驾驶员实施本规则规定的跳伞服务飞行，（）按照本规则进行审定合格，（）遵守CCAR-91部J章和本规则E章的相关规定。",
+    "options": [
+      {
+        "value": "A.不需要，需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要，不需要",
+        "label": "B"
+      },
+      {
+        "value": "C.需要，需要",
+        "label": "C"
+      },
+      {
+        "value": "D.需要，不需要",
+        "label": "D"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 13,
+    "topic": "题目13：中华人民共和国公民或在中华人民共和国境内登记的企事业法人实施非商业农林喷洒作业、直升机外载荷作业飞行，（）按照本规则进行审定合格，（）遵守本规则中相应的飞行和运行规定。",
+    "options": [
+      {
+        "value": "A.不需要，需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要，不需要",
+        "label": "B"
+      },
+      {
+        "value": "C.需要，需要",
+        "label": "C"
+      },
+      {
+        "value": "D.需要，不需要",
+        "label": "D"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 14,
+    "topic": "题目14：特殊运营人实施任务运行前，（）经局方按照本规则审定合格，（）获得局方颁发的特殊运营人运行合格证和运行规范。",
+    "options": [
+      {
+        "value": "A.不需要，需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要，不需要",
+        "label": "B"
+      },
+      {
+        "value": "C.需要，需要",
+        "label": "C"
+      },
+      {
+        "value": "D.需要，不需要",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 15,
+    "topic": "题目15：合格证持有人（）运行合格证和运行规范的要求实施运行，（）给其颁发的偏离许可和豁免许可。",
+    "options": [
+      {
+        "value": "A.紧急情况下可以违反",
+        "label": "A"
+      },
+      {
+        "value": "B.不得违反",
+        "label": "B"
+      },
+      {
+        "value": "C.经过相关机构允许后可以违反",
+        "label": "C"
+      },
+      {
+        "value": "D.一般情况下不得违反",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 16,
+    "topic": "题目16：局方可以在（）对特殊运营人进行检查或监察，以确定该运营人是否符合本规则和局方为其颁发的运行规范的有关要求。",
+    "options": [
+      {
+        "value": "A.双方商定的时间和地点",
+        "label": "A"
+      },
+      {
+        "value": "B.双方商定的时间、任意地点",
+        "label": "B"
+      },
+      {
+        "value": "C.任何时间或地点",
+        "label": "C"
+      },
+      {
+        "value": "D.双方商定的地点、任意时间",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 17,
+    "topic": "特殊运营人（）在其主运行基地或局方可接受的其他地点保存运行合格证和运行规范，以备局方检查；（）随时接受局方的检查或监察",
+    "options": [
+      {
+        "value": "A.不需要，需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要，不需要",
+        "label": "B"
+      },
+      {
+        "value": "C.需要，需要",
+        "label": "C"
+      },
+      {
+        "value": "D.需要，不需要",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 18,
+    "topic": "题目18：特殊运营人（）保证每个参与运行的人员熟知运行规范中适用于该人员工作职责的有关规定并遵照执行。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 19,
+    "topic": "题目19：当合格证持有人对其运行合格证修改的申请被拒绝或对局方发出的修改决定有不同意见，请求重新考虑时，应当在收到通知后（）天之内向局方提出重新考虑的请求。",
+    "options": [
+      {
+        "value": "A.60",
+        "label": "A"
+      },
+      {
+        "value": "B.30",
+        "label": "B"
+      },
+      {
+        "value": "C.28",
+        "label": "C"
+      },
+      {
+        "value": "D.45",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 20,
+    "topic": "题目20：特殊运营人为运行中所使用的每位驾驶员单独建立的记录，该记录不应当包括下列哪项内容（）",
+    "options": [
+      {
+        "value": "A.驾驶员的姓名",
+        "label": "A"
+      },
+      {
+        "value": "B.驾驶员的年龄",
+        "label": "B"
+      },
+      {
+        "value": "C.驾驶员持有的执照（类别和编号）和等级",
+        "label": "C"
+      },
+      {
+        "value": "D.驾驶员持有的体检合格证的有效期限和级别",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 21,
+    "topic": "题目21：为特殊运营人服务，从运营人处获取报酬的驾驶员必须满足下列飞行时间限制要求：除经局方批准外，每日飞行时间不超过（）小时。",
+    "options": [
+      {
+        "value": "A.9",
+        "label": "A"
+      },
+      {
+        "value": "B.10",
+        "label": "B"
+      },
+      {
+        "value": "C.11",
+        "label": "C"
+      },
+      {
+        "value": "D.12",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 22,
+    "topic": "题目22：为特殊运营人服务，从运营人处获取报酬的驾驶员必须满足下列飞行时间限制要求：任何7个连续日历日内飞行时间不超过（）小时；每个日历月内的飞行时间不超过120小时；每个日历年内的飞行时间不超过1400小时。",
+    "options": [
+      {
+        "value": "A.30",
+        "label": "A"
+      },
+      {
+        "value": "B.35",
+        "label": "B"
+      },
+      {
+        "value": "C.40",
+        "label": "C"
+      },
+      {
+        "value": "D.45",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 23,
+    "topic": "题目23：为特殊运营人服务，从运营人处获取报酬的驾驶员必须满足下列飞行时间限制要求：每个日历月内的飞行时间不超过（）小时；每个日历年内的飞行时间不超过1400小时。",
+    "options": [
+      {
+        "value": "A.110",
+        "label": "A"
+      },
+      {
+        "value": "B.120",
+        "label": "B"
+      },
+      {
+        "value": "C.130",
+        "label": "C"
+      },
+      {
+        "value": "D.135",
+        "label": "D"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  },
+  {
+    "index": 24,
+    "topic": "题目24：为特殊运营人服务，从运营人处获取报酬的驾驶员必须满足下列飞行时间限制要求：每个日历年内的飞行时间不超过（）小时。",
+    "options": [
+      {
+        "value": "A.1300",
+        "label": "A"
+      },
+      {
+        "value": "B.1350",
+        "label": "B"
+      },
+      {
+        "value": "C.1400",
+        "label": "C"
+      },
+      {
+        "value": "D.1500",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 25,
+    "topic": "题目25：实施农林喷洒作业的特殊运营人不用在其主运行基地保存关于下列哪项内容的记录（）",
+    "options": [
+      {
+        "value": "A.服务对象的名称和地址",
+        "label": "A"
+      },
+      {
+        "value": "B.服务日期",
+        "label": "B"
+      },
+      {
+        "value": "C.服务对象的政治背景",
+        "label": "C"
+      },
+      {
+        "value": "D.每位执行农林喷洒作业飞行任务的驾驶员的姓名，及其通过知识和技术检查的日期",
+        "label": "D"
+      }
+    ],
+    "answer": "C",
+    "isMultiple": false
+  },
+  {
+    "index": 26,
+    "topic": "题目26：实施跳伞服务的特殊运营人不用在其主运行基地保存关于下列哪项内容的记录（）",
+    "options": [
+      {
+        "value": "A.每个降落伞的每次叠伞日期",
+        "label": "A"
+      },
+      {
+        "value": "B.每个降落伞存在的任何破损描述及处置程序和措施",
+        "label": "B"
+      },
+      {
+        "value": "C.每个降落伞的每次叠伞地点",
+        "label": "C"
+      },
+      {
+        "value": "D.每个降落伞的使用时长",
+        "label": "D"
+      }
+    ],
+    "answer": "D",
+    "isMultiple": false
+  },
+  {
+    "index": 27,
+    "topic": "题目27：对于运行运输类飞机和涡轮动力多发飞机的运营人，不用按照下列哪项要求进行记录保存（）",
+    "options": [
+      {
+        "value": "A.本次飞行经过的航路点",
+        "label": "A"
+      },
+      {
+        "value": "B.本次飞行的始发地和目的地",
+        "label": "B"
+      },
+      {
+        "value": "C.乘客人数",
+        "label": "C"
+      },
+      {
+        "value": "D.机组成员的姓名及其机组职位",
+        "label": "D"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 28,
+    "topic": "题目28：特殊运营人（）为其实施运行的飞行、维修和其他地面工作人员制定运行手册，并按照实际情况对手册进行及时更新。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 29,
+    "topic": "题目29：特殊运营人（）在其主运行基地或局方可接受的其他地点保存一份运行手册。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 30,
+    "topic": "题目30：以下哪项不是除经局方批准外，运营人必须按照其实际的运行情况，在运行手册中包括的内容（）",
+    "options": [
+      {
+        "value": "A.确保遵守航空器重量和平衡限制的程序",
+        "label": "A"
+      },
+      {
+        "value": "B.运营人的运行规范或运行规范相关部分的摘录，包括经批准使用的航空器、机组的组成以及批准的运行种类",
+        "label": "B"
+      },
+      {
+        "value": "C.仪表或设备不工作时的运行程序，以及特定类型的运行所需的设备在航路上发生故障或失效时，判断是否放行和继续飞行的程序",
+        "label": "C"
+      },
+      {
+        "value": "D.事故预防程序",
+        "label": "D"
+      }
+    ],
+    "answer": "D",
+    "isMultiple": false
+  },
+  {
+    "index": 31,
+    "topic": "题目31：以下哪项不是为特殊运营人服务，从运营人处获取报酬的驾驶员必须满足飞行时间限制要求（）",
+    "options": [
+      {
+        "value": "A.任何7个连续日历日内飞行时间不超过40小时",
+        "label": "A"
+      },
+      {
+        "value": "B.每个日历年内的飞行时间不超过1400小时",
+        "label": "B"
+      },
+      {
+        "value": "C.除经局方批准外，每日飞行时间不超过10小时",
+        "label": "C"
+      },
+      {
+        "value": "D.每个日历月内的飞行时间不超过140小时",
+        "label": "D"
+      }
+    ],
+    "answer": "D",
+    "isMultiple": false
+  },
+  {
+    "index": 32,
+    "topic": "题目32：使用运输类或涡轮多发飞机的特殊运营人（）建立一套内部的匿名安全报告程序，在运营人内部培养一种当事人不用过分担心遭受惩罚的安全氛围。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "A",
+    "isMultiple": false
+  },
+  {
+    "index": 33,
+    "topic": "题目32：如果对航空器的检查或维修是在备有运营人运行手册的指定维修站进行的，在飞往这些指定维修站时（）随机携带运行手册。",
+    "options": [
+      {
+        "value": "A.需要",
+        "label": "A"
+      },
+      {
+        "value": "B.不需要",
+        "label": "B"
+      }
+    ],
+    "answer": "B",
+    "isMultiple": false
+  }
+]
