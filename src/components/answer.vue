@@ -1,18 +1,5 @@
 <template>
     <div>
-        <div class="header">
-            <div class="menu">
-                <div v-for="(stage, index) in stages" :key="index" :class="{select:selected(index)}">
-                    {{stage}}:{{index}}:{{currentStage}}
-                </div>
-            </div>
-            <div class="childmenu">
-                <div v-for="(stage, index) in childStage" :key="index" :class="{select:detail.menu===stage}">
-                   {{stage}}
-                </div>
-            </div>
-        </div>
-
         <div class="answer-box">
             <div class="topic">{{detail.topic}}</div>
             <div class="options" v-if="!detail.isMultiple">
@@ -38,8 +25,10 @@
 <script>
     // @ is an alias to /src
 
+
     export default {
         name: "Home",
+        components: {},
         data() {
             return {
                 answer: "",
@@ -52,20 +41,6 @@
                 default: function () {
                     return {};
                 }
-            },
-            stages: {
-                type: Array,
-                // eslint-disable-next-line vue/require-valid-default-prop
-                default: []
-            },
-            childStage: {
-                type: Array,
-                // eslint-disable-next-line vue/require-valid-default-prop
-                default: []
-            },
-            currentStage: {
-                type: Number,
-                default: 0
             }
         },
         created() {
@@ -74,9 +49,7 @@
             console.log("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
         },
         methods: {
-            selected(index) {
-                return this.currentStage === index;
-            },
+
             previous() {
                 this.answer = "";
                 this.answerList = [];
@@ -93,9 +66,9 @@
                 if (this.answer === "" && this.answerList.length === 0) {
                     this.$message("请选择答案");
                 } else {
+                    this.answerList.sort();
                     let data = {
                         detail: this.detail,
-                        currentStage: this.currentStage,
                         answer: this.detail.isMultiple ? this.answerList.join(",") : this.answer
                     };
                     this.answer = "";
@@ -109,30 +82,12 @@
 </script>
 
 <style lang="scss" scoped>
-    .select {
-        color: #fff;
-        background: #108ee9;
-    }
-
-    .header {
-        display: flex;
-        flex-direction: column;
-        .menu {
-            display: flex;
-            flex-direction: row;
-            border: 1px solid #000;
-        }
-        .childmenu{
-            display: flex;
-            border: 1px solid #000;
-        }
-    }
-
     .answer-box {
         display: flex;
         align-items: center;
         margin-top: 50px;
         flex-flow: column;
+
         .options {
             margin-top: 50px;
             margin-bottom: 50px;

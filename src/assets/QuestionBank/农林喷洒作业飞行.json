@@ -88,12 +88,6 @@
     "answer": "",
     "isMultiple": false,
     "process": true,
-    "check": {
-      "stay": "reset||stayed",
-      "reset": "xxxxxx",
-      "stayed": "xxxxxxxx"
-    },
-    "default": "xxxxxxxx",
     "tip": {
       "2": {
         "A": "无需符合直升机外载荷作业飞行的规章规定且无需得到直升机机外载荷作业飞行的运行种类批准"
@@ -178,6 +172,233 @@
       "5": {
         "A": 7,
         "B": "end"
+      }
+    }
+  },
+  {
+    "index": 7,
+    "topic": "题目7：农林喷洒作业飞行是指航空器进行下述飞行：",
+    "options": [
+      {
+        "value": "A.喷洒农药",
+        "label": "A"
+      },
+      {
+        "value": "B.喷洒用于作物养料、土壤处理、作物生命繁殖或虫害控制的任何其他物质",
+        "label": "B"
+      },
+      {
+        "value": "C.从事直接影响农业、园艺或森林保护的喷洒任务",
+        "label": "C"
+      },
+      {
+        "value": "D.从事直接影响农业、园艺或森林保护的喷洒任务，但不包括播撒活的昆虫",
+        "label": "D"
+      }
+    ],
+    "menu": "农林喷洒作业范围",
+    "examine": {
+      "status": "stay",
+      "prompt": "请查看相关规章要求后重新作答"
+    },
+    "answer": "A,B,D",
+    "isMultiple": true,
+    "process": true,
+    "next": {
+      "4": {
+        "A,B,D": 8
+      },
+      "5": {
+        "A,B,D": 8
+      },
+      "6": {
+        "A,B,D": 8
+      }
+    }
+  },
+  {
+    "index": 8,
+    "topic": "题目8：对于农林喷洒作业飞行中喷洒的农药，下列说法正确的有：",
+    "options": [
+      {
+        "value": "A.农药是用于预防、消灭、抑制或减轻农业部门宣布为有害的任何昆虫、啮齿类动物、线虫类动物、霉菌、杂草和其他形式的植物或生物或病毒的任何物质或混合物",
+        "label": "A"
+      },
+      {
+        "value": "B.农药不可以是任何用作为作物调节剂、除叶剂或干燥剂的物质或混合物",
+        "label": "B"
+      },
+      {
+        "value": "C.农药可以是任何用作为作物调节剂、除叶剂或干燥剂的物质或混合物",
+        "label": "C"
+      },
+      {
+        "value": "D.农药不可以包括人和动物身上或体内的病毒；E.农药可以包括人和动物身上或体内的病毒",
+        "label": "D"
+      },
+      {
+        "value": "E.农药可以包括人和动物身上或体内的病毒",
+        "label": "E"
+      }
+    ],
+    "menu": "农林喷洒作业范围",
+    "examine": {
+      "status": "stay",
+      "prompt": "请查看相关规章要求后重新作答"
+    },
+    "answer": "A,C,D",
+    "isMultiple": true,
+    "process": true,
+    "next": {
+      "7": {
+        "A,C,D": 9
+      }
+    }
+  },
+  {
+    "index": 9,
+    "topic": "题目9：请键入运营人指定的作业负责人（可为运营人本人）信息",
+    "options": [
+      {
+        "value": "A.是",
+        "label": "A"
+      },
+      {
+        "value": "B.否",
+        "label": "B"
+      }
+    ],
+    "menu": "作业人员要求",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "8": {
+        "A": 10
+      }
+    }
+  },
+  {
+    "index": 10,
+    "topic": "题目10：是否进行药品喷洒作业？",
+    "options": [
+      {
+        "value": "A.是",
+        "label": "A"
+      },
+      {
+        "value": "B.否",
+        "label": "B"
+      }
+    ],
+    "menu": "作业人员要求",
+    "answer": "",
+    "isMultiple": false,
+    "process": true,
+    "next": {
+      "9": {
+        "A": 10,
+        "B": 10
+      }
+    }
+  },
+  {
+    "index": 11,
+    "topic": "题目11：作业负责人是否已经接受并通过包含下列内容的知识考试（请勾选）：",
+    "special": true,
+    "options": {
+      "part": [
+        {
+          "value": "A.作业飞行前的工作步骤",
+          "label": "A"
+        },
+        {
+          "value": "E.航空器操作限制和飞行性能",
+          "label": "E"
+        },
+        {
+          "value": "F.安全作业飞行程序",
+          "label": "F"
+        }
+      ],
+      "all": [
+        {
+          "value": "A.作业飞行前的工作步骤",
+          "label": "A"
+        },
+        {
+          "value": "B.处理有毒药品的安全知识",
+          "label": "B"
+        },
+        {
+          "value": "C.农药与化学药品对人员和动植物的影响及预防措施",
+          "label": "A"
+        },
+        {
+          "value": "D.人体中毒后会出现的症状、紧急措施和医疗机构位置",
+          "label": "D"
+        },
+        {
+          "value": "E.航空器操作限制和飞行性能",
+          "label": "E"
+        },
+        {
+          "value": "F.安全作业飞行程序",
+          "label": "F"
+        }
+      ]
+    },
+    "menu": "作业人员要求",
+    "answer": {
+      "part": "A,E,F",
+      "all": "A,B,C,D,E,F"
+    },
+    "isMultiple": true,
+    "process": true,
+    "next": {
+      "10": {
+        "A,E,F": 12,
+        "A,B,C,D,E,F": 12
+      }
+    }
+  },
+  {
+    "index": 12,
+    "topic": "题目12：作业负责人是否已经接受并通过包含下列内容的飞行技能考试（请勾选）：",
+    "options": [
+      {
+        "value": "A.在短跑道或松软跑道起飞（仅对飞机和自转直升机）",
+        "label": "A"
+      },
+      {
+        "value": "B.飞至作业区",
+        "label": "B"
+      },
+      {
+        "value": "C.进入喷洒作业",
+        "label": "A"
+      },
+      {
+        "value": "D.作业线飞行",
+        "label": "D"
+      },
+      {
+        "value": "E.拉升转弯",
+        "label": "E"
+      },
+      {
+        "value": "F.直升机快速急停",
+        "label": "F"
+      }
+    ],
+    "preset": "飞行技能考试必须在航空器的最大起飞全重状态下完成",
+    "menu": "作业人员要求",
+    "answer": "A,B,C,D,E,F",
+    "isMultiple": true,
+    "process": true,
+    "next": {
+      "11": {
+        "A,B,C,D,E,F": 13
       }
     }
   }
